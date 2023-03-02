@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact</title>
+
+    <style>
+
+        body{
+            position: relative;
+            height: 100vh;
+            background-image: url("./images/polygon.svg");
+        }
+
+        h3{
+            background-color: teal;
+            padding: 5px;
+            color: white;
+            text-align: center;
+            font-size: 3vh;
+        }
+
+
+        .social{
+            text-align:center;
+            padding-top: 3px;
+        }
+
+        .social a{
+            padding: 5px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .fa-facebook{
+            height: 5vh;
+        }
+
+        .fa-facebook:hover{
+            height: 6vh;
+            transition: 0.3s;
+        }
+
+
+        input{
+            display: block;
+            margin: 20px;
+            border-bottom: 2px solid rgb(232, 103, 56);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            height: 25px;
+            width: 90%;
+            background-color: rgb(26, 55, 108);
+            font-size: 2vh;
+            color: white;
+        }
+
+        textarea{
+            border-bottom: 2px solid rgb(232, 103, 56);
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            margin-left: 20px;
+            outline: none;
+            background-color: rgb(26, 55, 108);
+            font-size: 2vh;
+            color: white;
+
+        }
+
+        .containter{
+            margin: 7% 0% 0% 35%;
+            background-color: rgb(26, 55, 108);
+            display: inline-block;
+            padding: 30px;
+            width: 500px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px rgb(56, 89, 152);
+        }
+
+        button{
+            display: block;
+            margin: 20px;
+            height: 40px;
+            width: 90px;
+            font-size: medium;
+            font-weight: bold;
+            background-color: rgb(26, 55, 108);
+            border-radius: 5px;
+            color: white;
+            border: 2px solid orangered;
+        }
+
+        button:hover{
+            background-color: orangered;
+            border: none;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h3>Contact us</h3>
+
+    <div class="social">
+        <a href="https://www.facebook.com/MMM.SSS.Shamim"><img src="./images/facebook.png" class="fa-facebook" /></a>
+        <a href="https://www.linkedin.com/in/shamim-al-mamun-8a2959204/"><img src="./images/linkedin.png" class="fa-facebook" /></i></a>
+        <a href=""><img src="./images/twitter.png" class="fa-facebook" /></i></a>
+    </div>
+    
+    <div class="containter">
+        <form action="">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="40" rows="10" placeholder="message"></textarea>
+
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
